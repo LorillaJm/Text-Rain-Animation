@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Animation</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="background-text">
+        <h1>VINCE</h1>
+        <h1>ELIZA</h1>
+    </div>
+    <canvas id="heart"></canvas>
+    <script src="script.js"></script>
+</body>
+<style>
+    .background-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: rgba(255, 255, 255, 0.1); /* Light color for background */
+        font-size: 10em; /* Adjust size as needed */
+        text-align: center;
+        z-index: -1; /* Ensure text is behind other elements */
+    }
+</style>
+</html>
